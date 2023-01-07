@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans' sans-serif;
+}
+/* button that's used in multiple places */
+.btn-secondary{
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid #FD6E0A;
+}
+/* header and banner */
+.header{
+    background-image: url('../images/banner/banner1.png');
+    
+    position: absolute;
+    width: 1600px;
+    height: 808px;  
+}
+
+.banner-title{
+    position: absolute;
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+}
+
+.banner-description{
+    position: absolute;
+    width: 494px;
+    height: 78px;
+    left: 876px;
+    top: 468px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #444343;
+}
+
+.btn-primary{
+    position: absolute;
+    /* width: 160px;
+    height: 50px; */
+    left: 1175px;
+    top: 578px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+.my-picture{
+    position: absolute;
+    width: 569px;
+    height: 723.3px;
+    left: 206px;
+    top: 939px;
+    
+}
+.failure{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 130px;
+}
+
+.section-title{
+    position: absolute;
+width: 288px;
+height: 94px;
+left: 862px;
+top: 1178px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+
+
+color: #151414;
+}
+.section-description{
+    position: absolute;
+width: 416px;
+height: 104px;
+left: 862px;
+top: 1296px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+
+color: #444343;
+}
+main li{
+    list-style: none;
+    
+
+}
+main li>i{
+    color: limegreen;
+
+}
+main ul{
+    position: absolute;
+width: 315px;
+height: 26px;
+left: 820px;
+top: 1416px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+color: #444343;
+}
+/* my plans */
+.my-plans{
+margin-bottom: 130px;
+}
+.my-plans  .my-plan-title{
+    position: absolute;
+    width: 179px;
+    height: 47px;
+    left: 711px;
+    top: 1792.3px;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+
+
+color: #151414;
+
+}
+.my-plans-main-container{
+    display: flex;
+    position: absolute;
+    width: 1141px;
+    height: 299.96px;
+    left: 230px;
+    top: 1892.3px;
+    justify-content: space-around;
+}
+
+
+.my-plans-main-container .description{
+    /* position: absolute;
+width: 177px;
+height: 29px;
+left: 277px;
+top: 2063.26px; */
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 29px;
+text-align: center;
+
+/* Dark 03 */
+
+color: #737272;
+}
+.my-plans-main-container .plans-title{
+    /* position: absolute;
+width: 270px;
+height: 35px;
+left: 230px;
+top: 2012.26px; */
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 35px;
+text-align: center;
+
+/* Dark 01 */
+
+color: #151414;
+}
+
+/* gradient section */
+.gradient{
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2222.26px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
+    border-radius: 8px;
+    margin-bottom: 130px;
+}
+.grad-title{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+margin: 59px 617px 24px 64px;
+color: #FFFFFF;
+}
+.grad-btn{
+    margin: 0px 916px 59px 64px;
+}
+/* Footer */
+/* footer{
+    position: absolute;
+width: 1600px;
+ height: 577px;
+ 
+left: 0px;
+top: 2652.26px;
+
+
+
+background:#151414;
+} */
+
+.contact{
+    display: flex;
+    gap: 100px;
+    background:#151414;
+    padding: 130px 200px;
+    
+    
+}
+.contact .section-title{
+    text-align: left;
+    color: white;
+ 
+}
+.contact input{
+    width: 461px;
+    margin-bottom: 24px;
+    border: 0;
+    padding: 30px;
+}
+.contact a{
+    text-decoration: none;
+}
+.contact input{
+    height:64px;
+
+}
+.contact .ca{
+    margin: 0 0 0 100px;
+}
+.contact .cb{
+    margin: 0 50px 0 30px;
+}
